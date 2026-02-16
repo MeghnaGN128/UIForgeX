@@ -1,0 +1,155 @@
+/* .heading{
+    color:rgb(226, 33, 33);
+}
+
+button{
+background-color: rgb(24, 201, 36);
+}
+
+*{
+    font-family:'Times New Roman';
+}
+
+#stay{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(51, 177, 17);
+    border-radius: 50%;
+} */
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+    
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+}
+
+#logo{
+    color:#f08804;
+    font-size: 25px;
+    margin-left:2px ;
+}
+input{
+    margin-left: 200px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 200px;
+    color: white;
+}
+
+.contentbox{
+    color:black;
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 500px;
+} 
+
+footer{
+    text-align: center;
+    background-color: black;
+} */
+ /* div{
+    height: 100px;
+    width: 100px;
+    background-image: url("image.jpg");
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top:50px;
+ } */
+
+ /* .navbar{
+    background-color: pink; 
+    display: flex;
+    justify-content: space-evenly;
+ }
+ a{
+    text-decoration: none;
+    color: rgb(175, 24, 24);
+    
+ }
+    
+ li{
+    list-style-type: none;
+    
+ } */
+ /* .inner{
+     height: 100px;
+    width: 100px;
+    background-color: rgb(206, 86, 102);
+   align-self:flex-start;
+ }
+ .outer{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(133, 133, 229);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+ } */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+@media(max-width:600px){
+    div{
+        background-color: green;   
+    }
+}
+
+@media(min-width:300px)and(max-width:400px){
+    div{
+        background-color: pink;   
+    }
+}
+
+@media(min-width:400px)and(max-width:800px){
+    div{
+        background-color: red;   
+    }
+}
+
+@media(min-width:300px){
+    div{
+        background-color: rgb(33, 14, 177);    */
+    /* }
+} */
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border:20px solid yellow;
+    border-top: 5px solid black;
+    background-color: pink;
+    animation:spinAnimate 1s ease-in-out 3s infinite normal;
+}
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
