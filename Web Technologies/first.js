@@ -1,3 +1,56 @@
+ arrays
+// //Arrays
+let marks={
+    stu1:98,
+    stu2:78,
+};//here key value become pair but array is linear
+console.log(marks);
+let marks_student1=98;
+let marks_student2=67;
+console.log(marks_student1);
+console.log(marks_student2);
+let marks_students=[29,35,99,86,33.67];
+console.log(marks_students);
+console.log(marks_students.length);//right waay to write arrays
+let products_names=["pen","book","laptop","phone","tablet","charger","bag"];
+console.log(products_names);
+console.log(products_names.length);
+console.log(typeof products_names);
+console.log(products_names[5]);
+
+//Looping over an array
+ let products_names=["pen","book","laptop","phone","tablet"];
+ console.log(products_names[0]);
+ console.log(products_names[1]);
+ console.log(products_names[2]);
+ console.log(products_names[3]);
+ console.log(products_names[4]);
+for(let i=0;i <= products_names.length;i++){
+    console.log(products_names[i]);
+}
+// first.js:578 book
+// first.js:578 laptop
+// first.js:578 phone
+// first.js:578 tablet
+// first.js:578 undefined
+for(let i=1;i <= products_names.length;i++){
+    console.log(products_names[i]);
+}//it is not standard way of using for loop in array
+for(let i=0;i < products_names.length;i++){
+    console.log(products_names[i]);
+}
+//for-of loop and for-in loop can also use
+//for-of loop
+let products_names=["pen","book","laptop","phone","tablet"];
+for(let products of products_names){
+console.log(products);
+}
+let products_names=["pen","book","laptop","phone","tablet"];
+for(let products of products_names){
+console.log(products.toUpperCase());
+}
+//for-in loop
+=======
 console.log("Hello World");
 console.log("I am learning JavaScript");
 console.log("I am intrested in Frontend Development");
@@ -599,6 +652,7 @@ for(let products of products_names){
 console.log(products.toUpperCase());
 }
 for-in loop
+main
 let products_names=["pen","book","laptop","phone","tablet"];
 for(let p in products_names){
 console.log(products_names[p].toUpperCase());
@@ -630,12 +684,21 @@ for(let i=0;i<prices.length;i++) {
 }
   console.log(prices);
 
+// arrays
+//array methods
+// Push()
+let prices=[250,645,300,900,50];
+prices.push(89,88,90);
+console.log(prices);
+// Pop()
+
 array methods
 Push()
 let prices=[250,645,300,900,50];
 prices.push(89,88,90);
 console.log(prices);
 Pop()
+// main
 let prices1=[250,645,300,900,50];
 prices1.pop();
 prices1.pop();
@@ -646,11 +709,19 @@ console.log(prices1);
 let prices1=[250,645,300,900,50];
 console.log(prices1.pop());
 console.log(prices1);
+ arrays
+// toString()
+let prices3=[250,645,300,900,50];
+console.log(prices3.toString());
+console.log(typeof prices3);
+// concat()
+
 toString()
 let prices3=[250,645,300,900,50];
 console.log(prices3.toString());
 console.log(typeof prices3);
 concat()
+ main
 let marvel=["thor","spiderman","ironmen"];
 let dc_heroes=["suoerman","batman"];
 let res=marvel.concat(dc_heroes);
@@ -662,6 +733,19 @@ console.log(res);
 let marvel=["thor","spiderman","ironmen"];
 let dc_heroes=[,"superman","batman"];
 console.log(marvel + dc_heroes);
+ arrays
+// unshift()
+let marvel=["thor","spiderman","ironmen"];
+marvel.unshift("mgn");
+// shift()
+let marvel=["thor","spiderman","ironmen"];
+let val=marvel.shift("mgn");
+console.log(val);
+// slice(s,e);
+let marvel=["thor","spiderman","ironmen","superman","antman","strange"];
+console.log(marvel);
+console.log(marvel.slice(1,3));
+// splice()
 unshift()
 let marvel=["thor","spiderman","ironmen"];
 marvel.unshift("mgn");
@@ -674,6 +758,7 @@ let marvel=["thor","spiderman","ironmen","superman","antman","strange"];
 console.log(marvel);
 console.log(marvel.slice(1,3));
 splice()
+main
 let marvel=["thor","spiderman","ironmen","superman","antman","strange"];
 console.log(marvel);
 console.log(marvel.splice(2,2,"jay"));
