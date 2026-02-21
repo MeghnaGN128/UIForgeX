@@ -1,43 +1,17 @@
- #heading{
-            color:blue;
-            background-color: rgb(215, 125, 7);
-        } */
- .heading{
-            color:blue;
-            background-color: rgb(215, 125, 7);
-        }
-body{
-    background-color: darkkhaki;
-}
-
-button{
-    background-color: indianred;
-}
- .box{
+div{
     height: 100px;
     width: 100px;
+    background-color: aqua;
+    color: black;
     border: 1px solid black;
-    margin: 5px;
-    text-align: center;
-    background-color: aquamarine;
 }
 
- #box{
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    margin: 5px;
-    text-align: center;
-    color: beige;
-    background-color: rgb(71, 27, 200);
+.dark{
+    background-color: black;
+    color: white;
 }
-#items{
-text-align: left;
-}
- .para{
-    color:brown;
- }
 
- .newClass{
-    background-color: rgb(229, 231, 103);
- } 
+.light{
+    background-color: white;
+    color: black;
+}
