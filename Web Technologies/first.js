@@ -750,6 +750,12 @@ let num2 = Number(prompt("Enter second number"));
 let res = sum(num1, num2);
 console.log(res);
 
+// functions_methods
+// arrow functions
+function sum(a, b){
+    return a+b;
+}
+// Modern JS
 //arrow functions
 function sum(a, b){
     return a+b;
@@ -839,8 +845,9 @@ let calcSquare=(val)=>{
 };
 arr.forEach(calcSquare);
 
-//More methods in array
-//Map method
+// functions_methods
+// More methods in array
+// Map method
 let arr=[1,2,3,4,5];
 let mapExample=arr.map((val)=>{
     return val;
@@ -859,13 +866,15 @@ let mapExample=arr.map((val)=>{
 });
 console.log(mapExample);
 
-//filter method
-//even
+// functions_methods
+// filter method
+// even
 let arr=[1,2,3,4,5,6,7];
 let num=arr.filter((val)=>{
     return val%2===0;
 });
 console.log(num);
+// functions_methods
 //odd
 let arr=[1,2,3,4,5,6,7];
 let num=arr.filter((val)=>{
@@ -890,6 +899,7 @@ let ans=arr.reduce((res,curr)=>{
     return res>curr?res:curr;
 });
 console.log(ans);//5
+
 //min/small
 let arr=[4,3,1,2,5];
 let ans=arr.reduce((res,curr)=>{
