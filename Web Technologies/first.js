@@ -308,34 +308,3 @@ async function getDataAll() {
     console.log("all data received");
 })();
 
-// beginning of new code provided by user
-
-console.log("Hello World");
-console.log("I am learning JavaScript");
-console.log("I am intrested in Frontend Development");
-
-//variables
-fullName="tony stark";
-age=34
-price=89.0;
-x=null;
-y=undefined;
-isActive=true;
-console.log(isActive)
-console.log(x);
-console.log(y);
-console.log(age);
-console.log(price);
-console.log(fullName);
-
-//bad practice   //JS Dynamically typed variable
-fullName=78;
-console.log(fullName);
-
-//4 major rules in Variables
-//case sensitive in below example that makes understanding conflicts in code
-fullname="manya";
-fullName="radha";
-console.log(fullname);
-console.log(fullName);
-//letter,digit_,,$ ordeqrstuvwxyz :) of message truncated continue ...
